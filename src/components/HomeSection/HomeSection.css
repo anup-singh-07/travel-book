@@ -1,0 +1,98 @@
+video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.homeSection {
+    /* background: url('../../assets/Images/img-home.jpg') center center/cover no-repeat; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.homeSection>h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -150px;
+}
+
+.homeSection>p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.homeButtons {
+    margin-top: 32px;
+}
+
+.homeButtons .btn {
+    margin: 6px;
+}
+
+.fa-play-circle {
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 1100px) {
+    .homeSection>h1 {
+        font-size: 100px;
+        margin-top: 400px;
+    }
+    .homeSection>p {
+        font-size: 60px;
+    }
+    .btn {
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .homeSection>h1 {
+        font-size: 70px;
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homeSection>h1 {
+        font-size: 38px;
+        margin-top: -100px;
+    }
+    .homeSection>p {
+        font-size: 20px;
+    }
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .homeSection>h1 {
+        font-size: 25px;
+        margin-top: -100px;
+    }
+    .homeSection>p {
+        font-size: 15px;
+    }
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+    .btn {
+        width: 95%;
+    }
+}

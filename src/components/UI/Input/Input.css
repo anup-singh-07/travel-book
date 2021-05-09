@@ -1,0 +1,30 @@
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid antiquewhite;
+    color: antiquewhite;
+    outline: none;
+    background: transparent;
+}
+
+.check-box{
+    /* margin: auto; */
+    margin: 20px 10px 20px 0;
+    color: antiquewhite;
+}
+
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+::placeholder{
+    color: antiquewhite;
+    opacity: 0.8;
+}
